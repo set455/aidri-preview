@@ -54,7 +54,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .header-cta span { margin-left: 8px; color: var(--orange); }
 .menu-toggle { display: none; }
 
-.hero { position: relative; min-height: 760px; padding: 154px 0 76px; overflow: hidden; }
+.hero { position: relative; min-height: 760px; padding: 154px 0 76px; overflow: hidden; border-bottom: 1px solid var(--ink); }
 .hero::before { content: ""; position: absolute; width: 520px; height: 520px; right: -260px; top: -90px; border-radius: 50%; border: 110px solid rgba(19, 88, 216, .07); }
 .hero-grid { position: absolute; inset: 0; opacity: .34; background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px); background-size: 80px 80px; -webkit-mask-image: linear-gradient(to right, transparent 3%, #000 36%, #000 100%); mask-image: linear-gradient(to right, transparent 3%, #000 36%, #000 100%); }
 .hero-layout { position: relative; display: grid; grid-template-columns: 1.06fr .94fr; gap: 72px; align-items: center; }
@@ -64,6 +64,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 h1, h2, h3 { margin: 0; font-family: var(--display); line-height: .96; }
 h1 { max-width: 680px; font-size: clamp(48px, 5vw, 78px); font-stretch: condensed; letter-spacing: -.065em; text-transform: uppercase; }
 h1 em, h2 span, .contact h2 em { color: var(--blue); font-style: normal; }
+h1 .keep-line, h2 .keep-line { color: inherit; }
 .hero-lead { max-width: 600px; margin: 30px 0 0; color: #3f4946; font-size: 18px; line-height: 1.65; }
 .hero-actions { display: flex; align-items: center; gap: 28px; margin-top: 34px; }
 .button { display: inline-flex; justify-content: space-between; align-items: center; min-height: 54px; padding: 0 22px; border: 0; cursor: pointer; font-size: 13px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; transition: transform .2s ease, background .2s ease; }
