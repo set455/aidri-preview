@@ -409,6 +409,7 @@ h1 em, h2 span, .contact h2 em { color: var(--blue); font-style: normal; }
   .section-heading, .compact-heading { grid-template-columns: 1fr; gap: 16px; margin-bottom: 40px; }
   .section-heading > p:last-child { grid-column: auto; }
   .section-heading h2, .approach h2, .contact h2 { font-size: clamp(42px, 13.5vw, 58px); }
+  .services .section-heading h2 { font-size: clamp(32px, 11vw, 52px); }
   .service-grid { grid-template-columns: 1fr; }
   .service-card, .service-card-wide, .service-card-orange { grid-column: auto; min-height: 310px; align-items: center; text-align: center; }
   .service-card h3 { max-width: none; }
