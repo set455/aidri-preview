@@ -107,6 +107,7 @@ h1 .keep-line, h2 .keep-line { color: inherit; }
 @keyframes rotate { to { transform: translate(-50%, -50%) rotate(360deg); } }
 
 .section { padding: 122px 0; }
+.services { background: #e6e1d5; }
 .section-heading { display: grid; grid-template-columns: 1fr 2.25fr 1fr; gap: 42px; align-items: end; margin-bottom: 64px; }
 .section-heading .section-index { align-self: start; }
 .section-heading h2, .contact h2 { font-size: clamp(46px, 5vw, 76px); letter-spacing: -.05em; text-transform: uppercase; }
