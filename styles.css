@@ -149,9 +149,9 @@ h1 .keep-line, h2 .keep-line { color: inherit; }
 .process-list li:not(:last-child)::after { content: ""; position: absolute; z-index: 0; top: 20px; left: 50%; width: calc(100% + 16px); height: 1px; background: rgba(255,255,255,.52); }
 .process-num { position: relative; z-index: 1; align-self: center; width: 42px; height: 42px; display: grid; place-items: center; color: var(--ink); background: #ff9b72; font-size: 11px; font-weight: 900; }
 .process-list li > div { flex: 1; margin-top: 12px; padding: 24px 24px 48px; border: 1px solid rgba(255,255,255,.58); background: rgba(11,61,160,.22); }
-.process-list h3 { min-height: 2em; margin: 0 0 10px; font-size: 25px; line-height: 1; letter-spacing: -.02em; }
-.process-list p { max-width: 250px; margin: 0; color: #dde7fa; font-size: 13px; }
-.process-tag { position: absolute; z-index: 1; bottom: 20px; left: 24px; color: #c6d7ff; font-size: 9px; text-transform: uppercase; letter-spacing: .05em; }
+.process-list h3 { min-height: 2em; margin: 0 0 10px; font-family: "Bahnschrift", "Aptos", "Trebuchet MS", sans-serif; font-size: 24px; font-weight: 700; line-height: 1.06; letter-spacing: -.035em; }
+.process-list p { max-width: 250px; margin: 0; color: #dde7fa; font-family: "Aptos", "Trebuchet MS", sans-serif; font-size: 13px; line-height: 1.58; }
+.process-tag { position: absolute; z-index: 1; bottom: 20px; left: 24px; color: #c6d7ff; font-family: "Bahnschrift", "Aptos", sans-serif; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
 
 .situations { background: #e6e1d5; }
 .compact-heading { grid-template-columns: 1fr 3.3fr; align-items: start; }
