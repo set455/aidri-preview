@@ -400,6 +400,8 @@ h1 .keep-line, h2 .keep-line { color: inherit; }
   .support-route { gap: 4px; }.support-route strong { font-size: 8px; }.support-route i { width: 9px; }
   .section { padding: 82px 0; }
   .section-heading, .compact-heading { grid-template-columns: 1fr; gap: 16px; margin-bottom: 40px; }
+  .scope-heading > div { min-width: 0; }
+  .scope-heading h2 span { overflow-wrap: anywhere; }
   .section-heading > p:last-child { grid-column: auto; }
   .section-heading h2, .approach h2, .contact h2 { font-size: clamp(42px, 13.5vw, 58px); }
   .services .section-heading h2 { font-size: clamp(32px, 11vw, 52px); }
