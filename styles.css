@@ -378,6 +378,7 @@ h1 .keep-line, h2 .keep-line { color: inherit; }
 
 @media (max-width: 640px) {
   :root { --shell: calc(100% - 28px); }
+  html, body { max-width: 100%; overflow-x: hidden; }
   body { font-size: 15px; }
   .brand { font-size: 21px; }.brand-mark { width: 30px; height: 30px; }
   .hero { padding: 110px 0 48px; }
@@ -406,6 +407,8 @@ h1 .keep-line, h2 .keep-line { color: inherit; }
   .section-heading > p:last-child { grid-column: auto; }
   .section-heading h2, .approach h2, .contact h2 { font-size: clamp(42px, 13.5vw, 58px); }
   .services .section-heading h2 { font-size: clamp(32px, 11vw, 52px); }
+  .section-heading h2, .approach h2, .process-layout h2, .contact h2, .start-layout h2, .fit-title h2, .faq-layout h2, .connection-layout h2 { max-width: 100%; overflow-wrap: anywhere; hyphens: auto; }
+  .keep-line { white-space: normal; }
   .service-grid { grid-template-columns: 1fr; }
   .service-card, .service-card-wide, .service-card-orange { grid-column: auto; min-height: 310px; align-items: center; text-align: center; }
   .service-card h3 { max-width: none; }
@@ -426,7 +429,11 @@ h1 .keep-line, h2 .keep-line { color: inherit; }
   .directory-num { justify-self: center; }
   .card-link { margin-top: 14px; }
   .field-row { grid-template-columns: 1fr; gap: 0; }
-  .lead-form { padding: 25px 20px; }
+  .lead-form { padding: 25px 20px 82px; }
+  .contact-channels { display: grid; grid-template-columns: 1fr; gap: 10px; }
+  .contact-channels a { width: fit-content; max-width: 100%; overflow-wrap: anywhere; }
+  .chat-fab { right: 12px; bottom: max(12px, env(safe-area-inset-bottom)); padding: 12px; box-shadow: 4px 4px 0 var(--ink); }
+  .chat-fab span { display: none; }
   .footer-top { grid-template-columns: 1fr; gap: 12px; padding: 48px 0; }
   .footer-top nav { align-items: flex-start; margin-top: 16px; }
   .footer-bottom { min-height: 78px; align-items: flex-start; flex-direction: column; justify-content: center; gap: 4px; }
