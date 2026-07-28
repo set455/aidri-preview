@@ -409,6 +409,7 @@ h1 .keep-line, h2 .keep-line { color: inherit; }
   .section-heading h2, .approach h2, .contact h2 { font-size: clamp(42px, 13.5vw, 58px); }
   .services .section-heading h2 { font-size: clamp(32px, 11vw, 52px); }
   .section-heading h2, .approach h2, .process-layout h2, .contact h2, .start-layout h2, .fit-title h2, .faq-layout h2, .connection-layout h2 { max-width: 100%; overflow-wrap: anywhere; word-break: normal; hyphens: auto; text-wrap: balance; }
+  .tariff-page-title { overflow-wrap: anywhere; hyphens: none; }
   .contact-layout { grid-template-columns: minmax(0, 1fr); }
   .contact-copy { min-width: 0; }
   .start-layout .mobile-heading-break { display: inline; }
