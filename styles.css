@@ -445,7 +445,7 @@ h1 .keep-line, h2 .keep-line { color: inherit; }
   .subpage-hero { padding: 102px 0 64px; }
   .breadcrumbs { margin-bottom: 38px; white-space: nowrap; overflow-x: auto; }
   .lead-form input, .lead-form textarea { font-size: 16px; }
-  .subpage-title-grid h1, .detail-hero-layout h1 { max-width: 100%; font-size: clamp(50px,16vw,70px); overflow-wrap: anywhere; }
+  .subpage-title-grid h1, .detail-hero-layout h1 { max-width: 100%; font-size: clamp(50px,16vw,70px); overflow-wrap: anywhere; hyphens: auto; }
   .mobile-title-break { display: inline; }
   .detail-hero-layout .service-title-1c, .detail-hero-layout .service-title-long { font-size: clamp(34px,10.5vw,60px); }
   .directory-intro, .directory-grid, .detail-hero-layout, .detail-intro-grid, .scope-grid, .fit-title, .fit-grid { grid-template-columns: 1fr; }
