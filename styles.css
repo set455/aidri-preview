@@ -247,6 +247,7 @@ h1 .keep-line, h2 .keep-line { color: inherit; }
 .detail-hero-layout .service-title-long { font-size: clamp(44px, 4.5vw, 58px); }
 .keep-line { white-space: nowrap; }
 .mobile-title-break { display: none; }
+.mobile-heading-break { display: none; }
 .subpage-lead { padding-bottom: 10px; }
 .subpage-lead p { margin: 0 0 30px; color: #4f5956; font-size: 16px; }
 .subpage-lead .button { width: 100%; }
@@ -407,7 +408,8 @@ h1 .keep-line, h2 .keep-line { color: inherit; }
   .section-heading > p:last-child { grid-column: auto; }
   .section-heading h2, .approach h2, .contact h2 { font-size: clamp(42px, 13.5vw, 58px); }
   .services .section-heading h2 { font-size: clamp(32px, 11vw, 52px); }
-  .section-heading h2, .approach h2, .process-layout h2, .contact h2, .start-layout h2, .fit-title h2, .faq-layout h2, .connection-layout h2 { max-width: 100%; overflow-wrap: anywhere; hyphens: auto; }
+  .section-heading h2, .approach h2, .process-layout h2, .contact h2, .start-layout h2, .fit-title h2, .faq-layout h2, .connection-layout h2 { max-width: 100%; overflow-wrap: anywhere; hyphens: none; }
+  .start-layout .mobile-heading-break { display: inline; }
   .keep-line { white-space: normal; }
   .service-grid { grid-template-columns: 1fr; }
   .service-card, .service-card-wide, .service-card-orange { grid-column: auto; min-height: 310px; align-items: center; text-align: center; }
